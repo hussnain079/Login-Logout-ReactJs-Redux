@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://recruitment-api.pyt1.stg.jmr.pl',
+  baseURL: 'Your_Base_URL',
   headers: {
     'Content-Type': 'application/json',
   },

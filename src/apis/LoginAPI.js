@@ -1,7 +1,7 @@
 export const loginUser = async (username, password) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (username === "correct_login@example.com" && password === "C0rr3Ct_P@55w0rd") {
+      if (username === "enterusername" && password === "password") {
         resolve(true);
       } else {
         reject(false);

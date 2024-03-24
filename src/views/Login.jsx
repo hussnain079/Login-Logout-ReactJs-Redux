@@ -44,8 +44,6 @@ const Login = () => {
           Log in
         </Button>
       </Form.Item>
-      <h5>UserName: correct_login@example.com</h5>
-      <h5>Password: C0rr3Ct_P@55w0rd</h5>
     </Form>
   );
 };
